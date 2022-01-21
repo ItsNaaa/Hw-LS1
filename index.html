@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" href="./icon/youtube.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="http://127.0.0.1:5500/index.html"><img src="./icon/youtube.png" alt=""></a>
+    <a id="Title" href="">YouTube <sup>VN</sup> </a>
+    <input type="text" placeholder="Tìm kiếm..."/>
+    <button type="button" id="button">Tìm kiếm</button>
+    <button class="drop__down-btn" id="dropDownBtn">Na</button>
+    <div class="nav_icon">
+      <a href="">
+        <i class="far fa-bell" id="bell"></i>
+      </a>
+    </div>
+    <div class="nav_icon">
+      <a href="">
+        <i class="fas fa-bars"></i>
+      </a>
+    </div>
+    <div class="nav_icon">
+      <a href="">
+        <i class="fas fa-video"></i>
+      </a>
+    </div>
+  </div>
+  <div style="display: none;" class="drop__down-menu" id="dropDownMenu">
+    <div class="drop_header">
+      <span>Na</span>
+      Nguyễn Trần Nam Anh
+    </div>
+    <div class="drop_body">
+      <div class="drop_body_ctn">
+        <a href="https://www.youtube.com/channel/UCtcxtn_KrDzGN70mXrkPqGg">
+          <i class="fas fa-user"></i>
+          Kênh của bạn
+        </a>  
+      </div>
+      <div class="drop_body_ctn">
+        <a href="https://www.youtube.com/paid_memberships?ybp=mAEK">
+          <i class="fas fa-dollar-sign"></i>
+          Giao dịch và gói thành viên
+        </a>
+      </div>
+      <div class="drop_body_ctn">
+        <a href="https://studio.youtube.com/">
+          <i class="fas fa-cog"></i>
+          Youtube Studio
+        </a>
+      </div>
+      <div class="drop_body_ctn">
+        <a href="">
+          <i class="fas fa-users"></i>
+          Chuyển đổi tài khoản
+        </a>
+      </div>
+      <div class="drop_body_ctn">
+        <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dvi%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=vi&ec=65620&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+          <i class="fas fa-sign-out-alt"></i>
+          Đăng xuất
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div id="menu">
+      <ul id="check">
+        <li><a href="http://127.0.0.1:5500/index.html">Trang chủ</a></li>
+        <li><a href="https://www.youtube.com/feed/explore">Khám phá</a>
+        <li><a href="https://www.youtube.com/feed/subscriptions">Kênh đăng kí</a></li>
+      </ul>
+      <ul>
+        <hr>
+        <li><a href="https://www.youtube.com/feed/library">Thư viện</a></li>
+        <li><a href="https://www.youtube.com/feed/history">Video đã xem</a></li>
+        <li><a href="https://studio.youtube.com/channel/UCtcxtn_KrDzGN70mXrkPqGg/videos">Video của bạn</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=WL">xem sau</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=LL">Video đã thích</a></li>
+      </ul>
+      <ul>
+        <hr>
+        <p id="bold"><b>Dịch vụ khác của web</b></p>
+        <li><a href="https://www.youtube.com/gaming">Trò chơi</a></li>
+        <li><a href="https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig">Sự kiện trực tiếp</a></li>
+        <li><a href="https://www.youtube.com/channel/UCEgdi0XIXXZ-qJOFPf4JSKw">Thể thao</a></li>
+      </ul>
+      <ul>
+        <hr>
+        <li><a href="https://www.youtube.com/account">Cài đặt</a></li>
+        <li><a href="https://www.youtube.com/reporthistory">Lịch sử báo cáo</a></li>
+        <li><a href="#">Trợ giúp</a></li>
+        <li><a href="#">Phản hồi</a></li>
+      </ul>
+      <ul id="policy">
+        <hr>
+        <a href="https://www.youtube.com/t/terms">Điều khoản</a>
+        <a href="https://policies.google.com/privacy?hl=vi">Quyền riêng tư</a>
+        <br>
+        <a href="https://www.youtube.com/about/policies/">Chính sách an toàn</a>
+        <br>
+        <a href="https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen">Cách web hoạt động</a>
+        <br>
+        <a href="https://www.youtube.com/new">Tính năng mới</a>
+      </ul>  
+    </div>
+    <div class="video">
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/tdp.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://youtu.be/9tqLKbFkI9A" target="blank">Tình Đơn Phương | Nguyên ft. KOO | Official Music Video</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://youtu.be/Z_JELpnjKB4" target="blank">CÓ LẼ QUÁ KHÓ ĐỂ QUÊN 1 NGƯỜI – 1thinG ft Nam Lee n’ Dblue (Prod. 1thinG)</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>14,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/ad.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=o3iZHUVlSlQ" target="blank">Nguyên. ft $eth | Ánh Dương | Official Music Video</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/ll.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=F5tS5m86bOI" target="blank">LẠ LÙNG / Vũ. (Original)</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/dke.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=NLBTbCfR-Fg" target="blank">ĐÔNG KIẾM EM / Vũ. (Original)</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/t4llndce.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=UCXao7aTDQM" target="blank">Hà Anh Tuấn - Tháng Tư Là Lời Nói Dối Của Em (Official MV)</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/bttnm.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=vgrWzWM2kfc" target="blank">Bức Tranh Từ Nước Mắt - Mr. Siro (Lyrics Video)</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/dncm.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=TfDHpsZQYeE" target="blank">Dưới Những Cơn Mưa - Mr.Siro (Lyrics Video)</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/wn.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=GatNL0mmQGc" target="blank">W/n - ‘3107’ full album| ft. ( titie, Nâu ,Dươngg )</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/killic.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=SWm52ZIAxr8" target="blank">Killic x D.Blue - Chỉ Còn Ta Và Ta Giữa Trời (Prod. by Plantplantworld) [Official Audio]</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/gq.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://www.youtube.com/watch?v=zEWSSod0zTY" target="blank">GHÉ QUA | OFFICIAL MV | Dick x PC x Tofu</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-part">
+        <div class="video-part__item">
+          <img src="./Thumnail/cdbp.jpg" alt="">
+          <div class="thumbnail">
+            <img src="./Thumnail/CLQKDQMN.jpg" alt="">
+            <a href="https://youtu.be/rQnUD4Wlw5g" target="blank">[Vietsub - Pinyin] Con Đường Bình Phàm (Phác Thụ)|平凡之路 （朴树</a>
+          </div>
+          <div class="desc">
+            <span>Nguyễn Trần Nam Anh</span><br>
+            <span>4,2 N lượt xem | 12 giờ trước</span>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
